@@ -1,0 +1,11 @@
+directory ./src
+set follow-exec-mode new
+set breakpoint pending on
+b sudoers.c:858
+b sudoers.c:866
+c
+c
+c
+b nsswitch.c:147
+b nsswitch.c:487
+b nsswitch.c:369
